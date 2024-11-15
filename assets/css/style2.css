@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins','sans-serif';
+}
+
+body{
+    background-color: #ccc;
+   
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 10%;
+    background: linear-gradient(50deg, rgb(162, 231, 162), rgb(46, 148, 46));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 10px;
+    color: rgb(7, 72, 7);
+    text-decoration: none;
+    font-weight: 600;
+    pointer-events: none ;
+}
+
+.navbar a{
+display: inline-block;
+font-size: 15px;
+color:rgb(7, 72, 7); 
+text-decoration: none;
+font-weight: 200;
+margin-left: 20px;
+transition: all .50s ease;
+
+}
+.navbar a:hover{
+    text-shadow: 3px 3px 20px #11480d, -2px 1px 30px;
+}
+
+.home{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15rem;
+ }
+ 
+ .home .content{
+     display: flex;
+     flex-direction: column;
+     align-items: baseline;
+     text-align: left;
+     justify-content: center;
+     margin-top: 3rem;
+ }
+ 
+ span{
+     color: rgb(29, 173, 29);
+ }
+ 
+ .home-content h2{
+     font-size: 60px;
+     margin-top: 1rem;
+     line-height: 3.5rem;
+     margin-left: 20px;
+ }
+ .home-img{
+     border-radius: 50%;
+ }
+ 
+ .home-img img{
+     position: relative;
+     top: 3rem;
+     width: 32vw;
+     border-radius: 50%;
+     box-shadow: 0 0 25px var(rgb(130, 216, 130));
+     cursor: pointer;
+     transition: 0.4s ease-in-out;
+     margin-top: 100px;
+ }
+ 
+ .home-content p{
+     font-size: 20px;
+     font-weight: 500;
+     line-height: 1.8;
+     max-width: 1000px;
+     margin-left: 20px;
+ }
+.contact{
+    display: flex;
+    padding-top: 100px;
+}
+
+.contact-text h2{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px 0;
+    color: rgb(7, 72, 7);
+    margin-bottom:20px ;
+    margin-top: 50px;
+}
+.contact-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 300px;
+    margin-bottom: 100px;
+}
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+    padding: 10px;
+    margin: 15px;
+}
+
+.contact-item i {
+    font-size: 2em; 
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.contact-item a {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #13722c;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.contact-item p {
+    color: #13722c;
+    margin: 0; 
+    font-size: 0.9rem;
+}
+
+.contact-item a:hover {
+    color: #4CAF50;
+}
